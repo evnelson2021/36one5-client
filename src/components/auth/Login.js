@@ -15,7 +15,7 @@ export const Login = () => {
             .then(foundUsers => {
                 if (foundUsers.length === 1) {
                     const user = foundUsers[0]
-                    localStorage.setItem("honey_user", JSON.stringify({
+                    localStorage.setItem("36one5_user", JSON.stringify({
                         id: user.id,
                         staff: user.isStaff
                     }))
@@ -32,7 +32,7 @@ export const Login = () => {
         <main className="container--login">
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Honey Rae Repairs</h1>
+                    <h1>36one5</h1>
                     <h2>Please sign in</h2>
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>

@@ -21,7 +21,7 @@ export const Register = (props) => {
             .then(res => res.json())
             .then(createdUser => {
                 if (createdUser.hasOwnProperty("id")) {
-                    localStorage.setItem("honey_user", JSON.stringify({
+                    localStorage.setItem("36one5_user", JSON.stringify({
                         id: createdUser.id,
                         staff: createdUser.isStaff
                     }))
@@ -56,7 +56,7 @@ export const Register = (props) => {
     return (
         <main style={{ textAlign: "center" }}>
             <form className="form--login" onSubmit={handleRegister}>
-                <h1 className="h3 mb-3 font-weight-normal">Please Register for Honey Rae Repairs</h1>
+                <h1 className="h3 mb-3 font-weight-normal">Please Register for 36one5</h1>
                 <fieldset>
                     <label htmlFor="fullName"> Full Name </label>
                     <input onChange={updateCustomer}

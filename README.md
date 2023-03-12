@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+WIREFRAME LINK: https://www.figma.com/file/bs83ftR78KcTadmJOQPUw5/36one5---EVN-Capstone-2?node-id=0%3A1&t=X59KgsWn7J7vVYEt-1
+
+ERD LINK: https://drawsql.app/teams/36one5-backend-capstone/diagrams/36one5-backend-capstone
+
